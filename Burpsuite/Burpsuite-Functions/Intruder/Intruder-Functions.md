@@ -1,4 +1,4 @@
-#Four Types of Attack Options
+# Four Types of Attack Options
 
 ### Sniper Attack –
 
@@ -11,6 +11,7 @@ List di: admin, user1, guest
 Password fix rakha: 123456
 
 🔫 Burp try karega:
+
 admin : 123456  
 user1 : 123456  
 guest : 123456
