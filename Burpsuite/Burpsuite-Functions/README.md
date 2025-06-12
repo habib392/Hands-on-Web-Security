@@ -32,7 +32,7 @@ Burp Suite ka Intruder tab ek powerful tool hai jo automated way mein website ke
 
 14. Aap kisi ek field ko ya multiple fields ko target kar sakte hain.
 
-15. Real-time response dekh kar aap analysis kar sakte hain ke kya vulnerable hai.
+15. Real-time response dekh kar aap analysis kar sakte hain ke kya vulnerable hai
 
 ### System-Based Example:
 Aap ek login form test kar rahe ho jahan "username" aur "password" field hai. Intruder mein 100 common passwords daal kar aap test karte ho ke koi weak password to nahi chal gaya. Agar "admin:123456" se login ho gaya, to website insecure hai.
