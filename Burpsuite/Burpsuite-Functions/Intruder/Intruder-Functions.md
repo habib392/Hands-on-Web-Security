@@ -1,6 +1,6 @@
-# Four Types of Attack Options
+# Four Types of Attack Options In Intruder
 
-### Sniper Attack –
+### Sniper Attack
 
 Tum sirf ek field (jaise username ya password) ko test kar rahe ho
 Baqi fields same rehti hain
@@ -27,6 +27,7 @@ guest : 123456
 Payloads: admin, test123, guest123
 
 🔫 Burp try karega:
+
 Username: admin | Password: admin  
 Username: test123 | Password: test123  
 Username: guest123 | Password: guest123
@@ -35,7 +36,7 @@ Username: guest123 | Password: guest123
 
 ### Pitchfork – “Har banda apni line ka combo try kare”
 
-> ✔️ Username aur password alag alag list se lekin line by line match hote hain
+✔️ Username aur password alag alag list se lekin line by line match hote hain
 
 **Example:**
 Usernames: admin, user, guest
@@ -51,7 +52,7 @@ guest : admin123
 
 ✅ Cluster Bomb – “Har combination try karo”
 
-> ✔️ Username aur password ke sab combinations test karta hai
+✔️ Username aur password ke sab combinations test karta hai
 
 **Example:**
 Usernames: admin, user
