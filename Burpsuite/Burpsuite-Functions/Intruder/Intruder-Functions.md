@@ -2,8 +2,8 @@
 
 ### Sniper Attack –
 
-> ✔️ Tum sirf ek field (jaise username ya password) ko test kar rahe ho
-✔️ Baqi fields same rehti hain
+Tum sirf ek field (jaise username ya password) ko test kar rahe ho
+Baqi fields same rehti hain
 
 **Example:**
 Tumne target kiya sirf username field
@@ -64,6 +64,4 @@ user  : 123
 user  : pass
 
 🟢 Sahi usage: Jab tum har username ke saath har password test karna chahte ho (brute force style).
-
-🔄 Tumhara Summary Bilkul Karib Hai, Bas Thoda Clear Correction:
 
