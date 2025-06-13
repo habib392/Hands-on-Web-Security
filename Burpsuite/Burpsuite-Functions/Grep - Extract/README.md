@@ -31,3 +31,7 @@ Password Tried	Grep Extract Column
 - carlos123	- blank ✅
 
 ➡️ carlos123 is correct password!
+
+### Grep Extract
+- Jab Response ka specific part dekhna hoo
+- Jab tum error ka exact response content analyze karna chaho
