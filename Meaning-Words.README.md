@@ -6,12 +6,12 @@ Yeh pairs real logon ke hotay hain jo pehle kisi website se hack ho chuke hote h
 Log aksar ek hi password har website pe reuse karte hain, isliye attacker sochta hai:
 "Shaayad yeh same password is nayi website pe bhi kaam kar jaye."
 
-*🧪 Kaise kaam karta hai?*
+**🧪 Kaise kaam karta hai?**
 Hacker har username:password pair sirf aik baar try karta hai.
 To account locking system activate hi nahi hota, kyunke woh sirf multiple failed attempts par trigger hota hai.
 Lekin agar kisi bhi pair ka combination match kar gaya — to attacker uska account le jaata hai.
 
-*😨 Yeh attack khatarnaak kyun hai?*
+**😨 Yeh attack khatarnaak kyun hai?**
 Automated tools se yeh sab kuch fast ho jaata hai.
 Sirf ek run mein 100s ya 1000s of accounts hack ho sakte hain.
 Aur victim ko pata bhi nahi chalta kyunke har username bas aik baar test hua hota hai.
