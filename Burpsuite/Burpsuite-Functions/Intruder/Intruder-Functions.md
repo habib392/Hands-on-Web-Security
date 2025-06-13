@@ -1,69 +1,68 @@
-# Four Types of Attack Options In Intruder
+# 🔐 Four Types of Attack Options in Burp Suite Intruder
 
-### Sniper Attack
+## 🎯 1. Sniper Attack
 
-Tum sirf ek field (jaise username ya password) ko test kar rahe ho
-Baqi fields same rehti hain
-
-**Example:**
-Tumne target kiya sirf username field
-List di: admin, user1, guest
-Password fix rakha: 123456
-
-🔫 Burp try karega:
-
-admin : 123456  
-user1 : 123456  
-guest : 123456
-
-🟢 Sahi usage: Jab sirf ek parameter test karna ho.
-
-### Battering Ram – “Ek hi payload sab fields mein”
-
-✔️ Ek hi value har jagah pe try hoti hai
-✔️ Dono fields mein same value jaati hai
+Sniper attack tests only **one input field** at a time (like username or password).  
+All other fields stay the same.
 
 **Example:**
-Payloads: admin, test123, guest123
+- Target field: username
+- Payload list: `admin`, `user1`, `guest`
+- Password: fixed → `123456`
 
-🔫 Burp try karega:
+👉 Burp will send:
 
-Username: admin | Password: admin  
-Username: test123 | Password: test123  
+admin  : 123456
+user1  : 123456
+guest  : 123456
+
+✅ **Use When:** You want to test only one parameter.
+
+## 💥 2. Battering Ram
+
+This attack uses the **same value** in **all input fields**.
+
+**Example:**
+- Payloads: `admin`, `test123`, `guest123`
+
+👉 Burp will send:
+
+Username: admin    | Password: admin
+Username: test123  | Password: test123
 Username: guest123 | Password: guest123
 
-🟢 Sahi usage: Jab username = password type cases check karne ho.
+✅ **Use When:** Username and password are the same (like `admin:admin`).
 
-### Pitchfork – “Har banda apni line ka combo try kare”
+## 🔁 3. Pitchfork
 
-✔️ Username aur password alag alag list se lekin line by line match hote hain
+This attack uses **two different lists** — one for each field — and matches them **line by line**.
 
 **Example:**
-Usernames: admin, user, guest
-Passwords: 123, pass, admin123
+- Usernames: `admin`, `user`, `guest`
+- Passwords: `123`, `pass`, `admin123`
 
-🔫 Burp try karega:
+👉 Burp will send:
 
-admin : 123  
-user  : pass  
+admin : 123
+user  : pass
 guest : admin123
 
-🟢 Sahi usage: Jab har username ke liye ek matching password test karna ho (line by line).
+✅ **Use When:** You want to test each username with its own password (same line).
 
-✅ Cluster Bomb – “Har combination try karo”
 
-✔️ Username aur password ke sab combinations test karta hai
+## 💣 4. Cluster Bomb
+
+This attack tries **every possible combination** of usernames and passwords.
 
 **Example:**
-Usernames: admin, user
-Passwords: 123, pass
+- Usernames: `admin`, `user`
+- Passwords: `123`, `pass`
 
-🔫 Burp try karega:
+👉 Burp will send:
 
-admin : 123  
-admin : pass  
-user  : 123  
+admin : 123
+admin : pass
+user  : 123
 user  : pass
 
-🟢 Sahi usage: Jab tum har username ke saath har password test karna chahte ho (brute force style).
-
+✅ **Use When:** You want to test **all combinations** (brute force style).
