@@ -37,9 +37,9 @@ Achanak ek row aayi jismein:
 ✅ Grep Match wahan batayega: ❌
 👉 Samajh jao: Yeh password sahi tha
 
-**Grep Match**
-Sirf ye check karna hoo ky word hai ya nahi too yeh use karo
-Jab sirf yeh krna hoo ky error hai ya nhi too yeh use karo
+### Grep Match
+- Jab sirf ye check karna hoo ky word hai ya nahi too yeh use karo
+- Jab sirf yeh krna hoo ky error hai ya nhi too yeh use karo
 
 **Bhai honestly, penetration testing mein Grep Match bohot tez aur smart tool hai — agar error message fixed ho to match karlo,
 aur agar response dynamic ho to extract better hota hai.**
