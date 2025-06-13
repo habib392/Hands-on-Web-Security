@@ -32,6 +32,8 @@ Password Tried	Grep Extract Column
 
 ➡️ carlos123 is correct password!
 
-### Grep Extract
-- Jab Response ka specific part dekhna hoo
-- Jab tum error ka exact response content analyze karna chaho
+**Simple si baat** yeh hai ky Grep-Extract ius waqt use krna chahie jab respone column main haar dafa errors change hoty hoon jaisy
+- Invalid username or password.
+- Invalid password
+- Too many login attempts
+- Welcome back Carlos!
