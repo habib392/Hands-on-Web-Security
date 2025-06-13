@@ -26,8 +26,8 @@ Kyunkay successful login main error message nahi hota
 
 **📌 Example:**
 Password Tried	Grep Extract Column
--123456	Incorrect password
--admin123	Incorrect password
--carlos123	blank ✅
+- 123456 - Incorrect password
+- admin123	- Incorrect password
+- carlos123	- blank ✅
 
 ➡️ carlos123 is correct password!
