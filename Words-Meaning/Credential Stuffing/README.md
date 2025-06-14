@@ -28,7 +28,7 @@ Passwords: khan, sadwq, jack, hary
 To Pitchfork attack inko line-by-line match karega:
 
 Attempt No.	Username	Password
-1	admin	khan
-2	21322	sadwq
-3	rock	jack
-4	dave	hary
+- 1	admin	khan
+- 2  21322	sadwq
+- 3	rock	jack
+- 4	dave	hary
