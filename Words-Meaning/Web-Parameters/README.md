@@ -33,10 +33,10 @@ price = 500
 
 ### 🛠️ Example 2: Form-based Parameters (POST)
 
-<form action="/login" method="POST">
+(<form action="/login" method="POST">
   <input name="username" type="text">
   <input name="password" type="password">
-</form>
+</form>)
 
 Parameters:
 
