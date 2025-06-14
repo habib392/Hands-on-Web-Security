@@ -1,9 +1,12 @@
 # WHAT IS GET/ POST
 GET aur POST do common HTTP request methods hain jo browser server se baat karne ke liye use karta hai.
-GET request URL mein data bhejti hai (visible hota hai) jabke POST data ko form body mein chhupa kar bhejti hai (hidden hota hai).
+GET request URL mein data bhejti hai jabke POST data ko form body mein chhupa kar bhejti hai.
+
 GET faster hoti hai lekin less secure hoti hai, POST secure hoti hai kyunki sensitive data chhup jata hai.
 
 **GET mein data dikhai deta hai, POST mein nahi**
+
+
 
 ## EXAMPLES
 
@@ -36,3 +39,13 @@ name=Habib&message=Hello+admin
 
 📌 Form se bheja gaya data hidden hai → POST
 
+Inn examples sy yeh samj aaya 
+
+Agar BurpSuite mein intercept on karke dekha jaye aur URL mein sirf /login ho lekin neeche body mein username=habib&password=123,
+toh woh POST hai.
+
+Agar URL hi kuch aisa ho:
+/search?query=testing&sort=latest
+toh woh GET hai.
+
+Burpsuite sy sub kuch dekh jaata hai
