@@ -24,22 +24,36 @@ Host: example.com**
 
 **POST /login HTTP/1.1
 Host: example.com
-Content-Type: application/x-www-form-urlencoded**
+Content-Type: application/x-www-form-urlencoded
 
-username=admin&password=123456
+username=admin&password=123456**
 
 📌 Data body mein hai, URL mein kuch nahi → POST
 
 ### ✅ 3. Contact form (Name, Message) – POST
 
 **POST /contact HTTP/1.1
-Host: example.com**
+Host: example.com
 
-name=Habib&message=Hello+admin
+name=Habib&message=Hello+admin**
 
 📌 Form se bheja gaya data hidden hai → POST
 
-Inn examples sy yeh samj aaya 
+### ✅ 4. Product filter – GET Request
+
+**GET /products?category=shoes&sort=price HTTP/1.1**
+
+📌 Filter options URL mein dikh rahe hain → GET
+
+### ✅ 5. Signup form – POST Request
+
+**POST /register HTTP/1.1
+
+username=habib123&email=habib@gmail.com&password=abc123**
+
+📌 Sensitive data ja raha hai → chhupa hota hai → POST
+
+## Inn examples sy yeh samj aaya 
 
 Agar BurpSuite mein intercept on karke dekha jaye aur URL mein sirf /login ho lekin neeche body mein username=habib&password=123,
 toh woh POST hai.
