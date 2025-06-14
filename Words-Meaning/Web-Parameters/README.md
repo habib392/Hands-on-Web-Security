@@ -30,26 +30,6 @@ color = red
 
 price = 500
 
-
-### 🛠️ Example 2: Form-based Parameters (POST)
-
-(<form action="/login" method="POST">
-  <input name="username" type="text">
-  <input name="password" type="password">
-</form>)
-
-Parameters:
-
-username
-
-password
-
-### 🛠️ Example 3: Hidden Parameter (Used for CSRF, Tracking)
-
-<input type="hidden" name="csrf_token" value="abc123">
-
-Parameter: csrf_token
-
 **Input type, ya phir value kabhi parameters nhi hoo skty**
 
 URL mein parameters dhoondhna asaan hota hai jo bhi = ke sath ho, wo parameter hota hai.
