@@ -63,3 +63,7 @@ Agar URL hi kuch aisa ho:
 toh woh GET hai.
 
 Burpsuite sy sub kuch dekh jaata hai
+
+SUB SY ASAN TARIQA SAMAJNY KA YEH HAI 
+GET/POST dono ko data submit krny ky liye use kiya jaata hai 
+GET main data url main show hoo jata hai ky kya sumbit hoo rha hai lekin POST main show nhi hota
