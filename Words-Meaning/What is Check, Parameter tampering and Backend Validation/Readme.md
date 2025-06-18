@@ -74,6 +74,6 @@ Term	Asaan Matlab
 
 **Check**	System ka rule: "Yeh user ya data sahi hai ya nahi"
 
-**Parameter tampering	** Request ka data change karna — jaise role, price, password
+**Parameter tampering** Request ka data change karna — jaise role, price, password
 
 Missing **backend validation**	Server ne dobara verify hi nahi kiya — sirf frontend pe bharosa kiya
