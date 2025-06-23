@@ -52,3 +52,24 @@ Real-life naam: Square brackets
 let fruits = ["apple", "banana"];
 
 console.log(fruits[0]); // "apple"
+
+---
+
+- var = Variable Declaration = Old method to store data
+
+- let = Variable Declaration = Modern method (block scoped)
+
+- const = Constant Declaration = Fixed value (can't change)
+
+array = Group of values = Stored inside [] = Example: [1, 2, 3]
+
+---
+
+object = Group of key-value pairs = Stored inside {}  
+Example: {name: "Habib", age: 18}
+
+function = Set of instructions = Defined using `function` keyword  
+Example: function greet() { alert("Hello") }
+
+reference = Variable pointing to value in memory  
+Example: let x = arr; (x is referencing the array `arr`)
