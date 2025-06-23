@@ -3,7 +3,10 @@
 ## 🔹 HTML + JavaScript Example
 
 ```html
-<!DOCTYPE html>
+<!DOCTYPE html>```
+
+---
+
 <html>
 <head>
   <title>My First JS Program</title>
@@ -20,11 +23,11 @@
 </script>
 
 </body>
-</html>```
+</html>
 
 ---
 
-🔍 Is Program Mein Kya Use Hua Hai?
+#🔍 Is Program Mein Kya Use Hua Hai?
 
 Element	Kya hai?
 
