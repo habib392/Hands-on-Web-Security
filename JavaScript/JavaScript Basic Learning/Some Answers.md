@@ -20,9 +20,9 @@ var name = "Habib";
 
 let age = 18;
 
-New aur modern style hai (ES6+).
+- New aur modern style hai (ES6+).
 
-Block-level scope rakhta hai.
+- Block-level scope rakhta hai.
 
 if else bhi 100% samj agya
 
