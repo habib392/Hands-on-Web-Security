@@ -71,7 +71,7 @@ Yeh likhne se wo value screen par nahi — console mein print hoti hai. Console 
 </script>
 
 </body>
-</html>
+</html>```
 
 
 ---
@@ -80,9 +80,7 @@ Yeh likhne se wo value screen par nahi — console mein print hoti hai. Console 
 
 1. Code ko run karo (Notepad mein likho aur .html file banao)
 
-
 2. Right-click → Inspect → Console tab khol lo
-
 
 3. Button press karo → Dekho kya print hota hai
 
