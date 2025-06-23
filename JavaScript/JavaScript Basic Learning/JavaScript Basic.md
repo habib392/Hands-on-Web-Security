@@ -9,7 +9,9 @@ Real-life naam: Round brackets
 ### Example:
 
 function greet() {
+
   alert("Hello");
+
 }
 greet(); // ← Yeh () is function ko chala raha hai
 
@@ -25,7 +27,9 @@ Real-life naam: Curly brackets
 ### Example (code block):
 
 if (age > 18) {
+
   console.log("Adult");
+
 }
 
 ### Example (object):
@@ -45,4 +49,5 @@ Real-life naam: Square brackets
 ### Example:
 
 let fruits = ["apple", "banana"];
+
 console.log(fruits[0]); // "apple"
