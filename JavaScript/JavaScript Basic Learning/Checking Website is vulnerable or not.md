@@ -40,7 +40,7 @@ Agar ye bhi chal gaya (popup aa gaya) toh:
 
 ### 💡 Tip (Penetration Testing Use):
 
-**<b>, <i>, <u>, <h1>, <a href>** jaise harmless HTML tags ek tester check karta hai taake:
+**<b>**, <i>, <u>, <h1>, <a href> jaise harmless HTML tags ek tester check karta hai taake:
 
 Website sanitize karti hai ya nahi
 
