@@ -142,7 +142,6 @@ Example:
 
 ---
 
-# Han g
 
 
 
