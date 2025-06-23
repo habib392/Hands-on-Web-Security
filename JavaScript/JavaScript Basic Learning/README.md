@@ -1,7 +1,7 @@
 # ✅ JavaScript Beginner Program:
 
-```<DOCTYPE html>
-<html>
+<DOCTYPE html>
+```<html>
 <head>
   <title>My First JS Program</title>
 </head>
