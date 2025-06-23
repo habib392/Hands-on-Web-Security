@@ -90,7 +90,9 @@ svg graphics ke liye hota hai, lekin onload ke through JavaScript chala sakte ho
 
 ### 🔰 4. Anchor Tag <a> with onclick
 
-**<a href="#" onclick="alert('XSS')">Click me</a>**
+```<a href="#" onclick="alert('XSS')">Click me</a>```
+
+---
 
 Jab banda is link pe click kare, XSS payload trigger hoga
 
