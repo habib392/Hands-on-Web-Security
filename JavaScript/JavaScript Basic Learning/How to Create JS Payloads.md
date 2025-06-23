@@ -179,19 +179,23 @@ Acha sawal! Hacker kya karta hai?
 
 agar allowed ho
 
+---
+
 🧱 Clickjacking / Phishing
 
 **Kaise:** Form, fake button ya CSS-based UI banake
+
+---
 
 💉 HTML injection
 
 **Kaise:**	Sirf HTML elements inject karne ki koshish
 
+---
+
 🧙‍♂️ DOM-based CSP bypass	
 
 **Kaise:** Agar CSP weak ho, toh usko manipulate karna with script-src-elem
-
-
 
 ---
 
