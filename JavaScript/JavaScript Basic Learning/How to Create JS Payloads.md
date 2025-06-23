@@ -56,7 +56,9 @@ Yahan:
 
 # 🔰 1. <img> tag ke saath XSS Payload
 
-**<img src="x" onerror="alert('XSS')">**
+```<img src="x" onerror="alert('XSS')">```
+
+---
 
 ### ✅ Kya ho raha hai?
 
