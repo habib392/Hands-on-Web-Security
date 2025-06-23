@@ -13,6 +13,7 @@ function greet() {
   alert("Hello");
 
 }
+
 greet(); // ← Yeh () is function ko chala raha hai
 
 ---
