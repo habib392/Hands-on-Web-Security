@@ -66,16 +66,4 @@ JavaScript run ho rahi hai ✅
 Page vulnerable hai ✅
 
 Advanced payloads inject ho sakte hain 
-
-📘 Next Lesson Includes:
-
-console.log()
-
-prompt()
-
-var, let, const
-
-if / else
-
-
 ---
