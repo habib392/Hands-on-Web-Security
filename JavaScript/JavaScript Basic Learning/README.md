@@ -3,9 +3,9 @@
 ## 🔹 HTML + JavaScript Example
 
 ```html
-`<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>`
+<head>
   <title>My First JS Program</title>
 </head>
 <body>
