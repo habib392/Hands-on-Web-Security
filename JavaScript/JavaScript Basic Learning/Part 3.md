@@ -74,9 +74,7 @@ Yeh likhne se wo value screen par nahi — console mein print hoti hai. Console 
 </html>```
 
 
----
-
-🧪 Try karo:
+### 🧪 Try karo:
 
 1. Code ko run karo (Notepad mein likho aur .html file banao)
 
