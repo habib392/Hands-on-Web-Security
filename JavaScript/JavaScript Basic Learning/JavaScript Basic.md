@@ -63,13 +63,23 @@ console.log(fruits[0]); // "apple"
 
 ---
 
-array = Group of values = Stored inside [] = Example: [1, 2, 3]
+- array = Group of values = Stored inside [] = Example: [1, 2, 3]
 
-object = Group of key-value pairs = Stored inside {}  
+- object = Group of key-value pairs = Stored inside {}  
 Example: {name: "Habib", age: 18}
 
-function = Set of instructions = Defined using `function` keyword  
+- function = Set of instructions = Defined using `function` keyword  
 Example: function greet() { alert("Hello") }
 
-reference = Variable pointing to value in memory  
+- reference = Variable pointing to value in memory  
 Example: let x = arr; (x is referencing the array `arr`)
+
+---
+
+- alert() = Website vulnerable hai ya nahi yeh test karne ke liye (popup show karta hai)
+
+- prompt() = User se data lene ke liye (input box show karta hai)
+
+- document.cookie = Website ki stored cookies hasil karne ke liye
+
+- fetch() = Data (jaise cookie) kisi external server ya attacker ki site par bhejne ke liye
