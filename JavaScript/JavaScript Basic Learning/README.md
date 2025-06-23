@@ -1,6 +1,6 @@
 # ✅ JavaScript Beginner Program:
 
-**<!DOCTYPE html>
+'''<!DOCTYPE html>
 <html>
 <head>
   <title>My First JS Program</title>
@@ -17,5 +17,5 @@
 </script>
 
 </body>
-</html>**
+</html>'''
 
