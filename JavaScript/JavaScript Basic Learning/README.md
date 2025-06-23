@@ -1,14 +1,14 @@
 # ✅ JavaScript Beginner Program:
 
 <DOCTYPE html>
-```<html>
+```<html>```
 <head>
   <title>My First JS Program</title>
-</head>```
+</head>
 <body>
 
-```<h1>Welcome!</h1>
-<button onclick="showMessage()">Click Me</button>```
+<h1>Welcome!</h1>
+<button onclick="showMessage()">Click Me</button>
 
 <script>
   function showMessage() {
@@ -17,7 +17,7 @@
 </script>
 
 </body>
-</html>```
+</html>
 
 ---
 
