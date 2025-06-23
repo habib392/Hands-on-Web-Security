@@ -26,6 +26,31 @@ let age = 18;
 
 - Block-level scope rakhta hai.
 
+### Quick Summary
+
+**alert()**	Popup show karta hai	
+
+XSS main use: XSS payload test karna
+
+**prompt()**	User se input leta hai
+
+XSS main use: Fake login / phishing
+
+**var or let**	Value store karta hai
+XSS main use: Cookie ya user data store karna
+
+**if / else** Logic lagana
+XSS main use:	Kab kya run ho
+
+**document.cookie**	User ki cookies nikalna
+XSS main use:	Session hijack
+
+**fetch()** Data dusri site pe bhejna
+XSS main use: Data leak (exfiltrate)
+
+**img.src** 	Image ke zariye request bhejna	
+XSS main use: Alternate data leak meth
+
 if else bhi 100% samj agya
 
 
