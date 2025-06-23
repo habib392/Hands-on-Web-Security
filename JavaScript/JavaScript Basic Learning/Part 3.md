@@ -47,3 +47,41 @@ console.log(age);
 
 Yeh likhne se wo value screen par nahi — console mein print hoti hai. Console wo jagah hai jahan developer check karta hai ke code theek chal raha hai ya nahi.
 
+💡 Full example jo tum browser mein chala sako:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple JavaScript</title>
+</head>
+<body>
+
+<h1>Simple Program</h1>
+<button onclick="show()">Click Me</button>
+
+<script>
+  function show() {
+    var name = "Habib";
+    var age = 18;
+
+    console.log("Mera naam hai: " + name);
+    console.log("Meri umar hai: " + age);
+  }
+</script>
+
+</body>
+</html>
+
+
+---
+
+🧪 Try karo:
+
+1. Code ko run karo (Notepad mein likho aur .html file banao)
+
+
+2. Right-click → Inspect → Console tab khol lo
+
+
+3. Button press karo → Dekho kya print hota hai
+
