@@ -4,6 +4,25 @@ JavaScript main agr hum **alert()** use krty hain ky website main XSS execute ho
 
 **var** hum taab lagaty hain jab hum user ki value ko apny database main store karna chahty hoon
 
+## Difference Between Var/let
+
+Value store karna
+
+**var**
+
+var name = "Habib";
+
+- Old JavaScript version ka style hai.
+
+- Function-level scope rakhta hai.
+
+**let**
+
+let age = 18;
+
+New aur modern style hai (ES6+).
+
+Block-level scope rakhta hai.
 
 if else bhi 100% samj agya
 
