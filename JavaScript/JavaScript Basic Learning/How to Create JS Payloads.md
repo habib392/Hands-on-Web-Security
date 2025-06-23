@@ -105,9 +105,11 @@ JavaScript string ke liye	'...' single quotes ya double bhi chal jaata hai
 
 Example:
 
-```<img src="x" onerror="alert('Hello')">
+```<img src="x" onerror="alert('Hello')">```
 
-**"x"** → image path```
+---
+
+**"x"** → image path
 
 ---
 
