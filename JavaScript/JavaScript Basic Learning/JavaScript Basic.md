@@ -61,9 +61,9 @@ console.log(fruits[0]); // "apple"
 
 - const = Constant Declaration = Fixed value (can't change)
 
-array = Group of values = Stored inside [] = Example: [1, 2, 3]
-
 ---
+
+array = Group of values = Stored inside [] = Example: [1, 2, 3]
 
 object = Group of key-value pairs = Stored inside {}  
 Example: {name: "Habib", age: 18}
