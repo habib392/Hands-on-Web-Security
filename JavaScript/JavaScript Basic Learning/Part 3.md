@@ -71,7 +71,7 @@ Yeh likhne se wo value screen par nahi — console mein print hoti hai. Console 
 </script>
 
 </body>
-</html>```
+</html>
 
 
 ### 🧪 Try karo:
