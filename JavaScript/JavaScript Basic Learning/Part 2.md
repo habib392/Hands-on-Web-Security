@@ -24,6 +24,8 @@
 </body>
 </html>
 
+---
+
 1. ✅ prompt("Enter your age")
 yeh user ko ek pop-up box dikhata hai browser mein jahan user apni age likhta hai.
 Example: 19, 16, etc.
