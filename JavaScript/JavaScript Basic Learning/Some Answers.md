@@ -4,6 +4,8 @@ JavaScript main agr hum **alert()** use krty hain ky website main XSS execute ho
 
 **var** hum taab lagaty hain jab hum user ki value ko apny database main store karna chahty hoon
 
+**let** var aur let dono value store karte hain — lekin let zyada safe hota hai.
+
 ## Difference Between Var/let
 
 Value store karna
