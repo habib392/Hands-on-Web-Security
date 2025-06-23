@@ -5,17 +5,17 @@
 <head>
   <title>My First JS Program</title>
 </head>
-<body>
+<body>```
 
-<h1>Welcome!</h1>
-<button onclick="showMessage()">Click Me</button>
+```<h1>Welcome!</h1>
+<button onclick="showMessage()">Click Me</button>```
 
-<script>
+```<script>
   function showMessage() {
     alert("Hello Habib! You're learning JavaScript!");
   }
-</script>
+</script>```
 
 </body>
-</html> ```
+</html>
 
