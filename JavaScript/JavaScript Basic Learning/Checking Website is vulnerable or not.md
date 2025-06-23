@@ -45,9 +45,20 @@ Agar ye bhi chal gaya (popup aa gaya) toh:
 ---
 
 ```<i>```
+
 ---
 
- <u>, <h1>, <a href> jaise harmless HTML tags ek tester check karta hai taake:
+```<u>```
+
+---
+
+```<h1>```
+
+---
+
+```<a href>```
+
+jaise harmless HTML tags ek tester check karta hai taake:
 
 Website sanitize karti hai ya nahi
 
