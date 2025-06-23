@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-'''<html>
+''' <!DOCTYPE html>
+<html>
 <head>
   <title>Age Checker</title>
 </head>
