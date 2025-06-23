@@ -49,6 +49,7 @@ Yeh likhne se wo value screen par nahi — console mein print hoti hai. Console 
 
 💡 Full example jo tum browser mein chala sako:
 
+```html
 <!DOCTYPE html>
 <html>
 <head>
