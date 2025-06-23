@@ -1,0 +1,1 @@
+forEach loop sirf array main ata hai matlab jab array ki value 'a' used hoo sirf taab
