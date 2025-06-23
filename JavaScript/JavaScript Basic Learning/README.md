@@ -3,9 +3,7 @@
 ## 🔹 HTML + JavaScript Example
 
 ```html
-<!DOCTYPE html>```
-
----
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -27,7 +25,7 @@
 
 ---
 
-#🔍 Is Program Mein Kya Use Hua Hai?
+# 🔍 Is Program Mein Kya Use Hua Hai?
 
 Element	Kya hai?
 
