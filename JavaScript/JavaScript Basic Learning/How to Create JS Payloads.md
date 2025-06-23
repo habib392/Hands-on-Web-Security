@@ -147,5 +147,20 @@ Example:
 ---
 
 
+### Agar website ne JavaScript ko block kar diya ho (ya CSP lagi ho), toh...
+
+⚠️ Toh phir yeh sab payloads jaise:
+
+<script>alert(1)</script>
+
+<img src=x onerror=alert(1)>
+
+<svg onload=alert(1)>
+
+<iframe src="javascript:alert(1)">
+
+kaam nahi karein ge ya blocked ho jaayenge ❌
+
+
 
 
