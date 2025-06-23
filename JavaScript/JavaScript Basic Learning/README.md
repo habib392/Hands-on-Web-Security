@@ -20,7 +20,9 @@
 </script>
 
 </body>
-</html>
+</html>```
+
+---
 
 🔍 Is Program Mein Kya Use Hua Hai?
 
@@ -66,4 +68,5 @@ JavaScript run ho rahi hai ✅
 Page vulnerable hai ✅
 
 Advanced payloads inject ho sakte hain 
+
 ---
