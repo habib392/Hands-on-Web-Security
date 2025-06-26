@@ -37,9 +37,24 @@ API ka matlab hai Application Programming Interface. Yeh aik bridge hota hai jo 
 
 ---
 
-🔧 System-based Example (Tech):
+### 🔧 System-based Example (Tech):
 Tum ek mobile banking app bna rahe ho. Jab user "balance check" karta hai, tumhara app API ke zariye bank ke server se data mangta hai, aur user ka balance return hota hai — bina user ke bank ka pura system access kiye.
 
-👨‍🍳 Real-life Example:
+### 👨‍🍳 Real-life Example:
 Tum pizza order karte ho ek app se. Tum app mein pizza select karte ho, address likhte ho, aur order bhejte ho. App ki API pizza shop ke system se baat karti hai, order bhejti hai. Tumhe confirmation milta hai. App aur pizza shop directly baat nahi karte — API unke darmiyan postman hota hai.
+
+### 🔗 API aur Languages ka Connection:
+
+1. HTML kya karta hai?
+
+HTML sirf structure banata hai page ka. Jaise form ya button. Isme logic nahi hota.
+
+2. JavaScript kya karta hai?
+
+JavaScript user ki request uthata hai (e.g. form submit), aur API ko bhejta hai — server se baat karta hai.
+
+3. Python kya karta hai?
+
+Server pe Python hota hai. Woh API receive karta hai, data process karta hai, database se data nikaalta hai, aur JavaScript ko response bhejta hai.
+
 
