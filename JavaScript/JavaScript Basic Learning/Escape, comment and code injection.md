@@ -1,4 +1,5 @@
-# 📘 Title: Understanding Escape, Comments, and Code Injection in JavaScript (XSS Context)
+# 📘 Title:
+Understanding Escape, Comments, and Code Injection in JavaScript (XSS Context)
 
 
 ---
@@ -12,7 +13,7 @@ It tells JavaScript:
 
 Example:
 
-"Rauf says: ```\"Hello\""```
+```"Rauf says: \"Hello\""```
 
 
 ---
