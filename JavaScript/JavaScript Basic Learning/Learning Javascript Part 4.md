@@ -1,12 +1,14 @@
 ### forEach loop sirf array main ata hai matlab jab array ki value 'a' used hoo sirf taab
 
-var a = [3,1,6,8,2];
+```var a = [3,1,6,8,2];```
 
 ---
 
-a.forEach(function(khan){
-    console.log(khan+3);
-})
+```a.forEach(function(khan){```
+
+   ``` console.log(khan+3);```
+   
+```})```
 
 ---
 
