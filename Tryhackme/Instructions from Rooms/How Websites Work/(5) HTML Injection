@@ -1,7 +1,3 @@
-Bilkul bhai Habib, yeh raha tera text simple Urdu-style zubaan mein:
-
----
-
 **HTML Injection** ek vulnerability hoti hai jab website **user ke input ko filter nahi karti** aur seedha usay page par dikhati hai.
 
 Agar website user se koi text leti hai (jaise comment, feedback, form waghera) aur bina check kiye usay page par show karti hai, toh attacker **apna HTML code inject kar sakta hai**.
