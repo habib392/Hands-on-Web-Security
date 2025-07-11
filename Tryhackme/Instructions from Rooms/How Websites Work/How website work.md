@@ -14,7 +14,7 @@ Simple alfaaz mein:
 Tum request karte ho (jaise: “bhai mujhe page dikhao”), server reply karta hai (jaise: “ye lo page”).
 Tumhara browser uss reply ko samajh ke tumhe website dikhata hai.
 
-![TryHackMe Screenshot](https://github.com/habib392/Hands-on-Web-Security/blob/71b58a0311291541c477ef443f1c27f4875ecd71/Tryhackme/Instructions%20from%20Rooms/How%20Websites%20Work/Tryhackme22.png)
+![TryHackMe Screenshot](https://github.com/habib392/ImagesSS/blob/e659dcd909fb9b3dafa8dee0d45461bfd8d4648f/Tryhackme22.png)
 
 ---
 
