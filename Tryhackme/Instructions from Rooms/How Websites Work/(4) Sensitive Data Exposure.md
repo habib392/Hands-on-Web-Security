@@ -8,7 +8,7 @@ Kabhi kabhi developer bhool jata hai:
 * Secret links (jo private parts of site ke liye hotay hain)
 * Ya aur sensitive info HTML ya JavaScript mein chhor deta hai
 
-[HTML SOURCE](https://github.com/habib392/ImagesSS/blob/d0cbdf24ce46d9ca9fbfc076deac646cc4ff435b/html_source.png)
+![HTML SOURCE](https://github.com/habib392/ImagesSS/blob/d0cbdf24ce46d9ca9fbfc076deac646cc4ff435b/html_source.png)
 
 Ye data agar attacker dekh le, toh wo site ke doosray hisson tak pahunch sakta hai.
 Misal ke taur pe:
