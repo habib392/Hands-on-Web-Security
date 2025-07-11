@@ -37,3 +37,18 @@
   *(Zyada sugar khanay se diabetes ho sakta hai.)*
 
 ---
+
+Bind ya Tied dono ka matlab hota hai baandhna ya jurna.
+
+Lekin context pe depend karta hai. Niche kuch simple examples hain:
+
+
+---
+
+🔒 Security ya Programming Context mein:
+
+"The token is tied to the session"
+👉 Yani token session ke sath jura hua hai, usi session ke liye valid hai.
+
+"The IP is bound to the user"
+👉 IP address user ke sath link kiya gaya hai
