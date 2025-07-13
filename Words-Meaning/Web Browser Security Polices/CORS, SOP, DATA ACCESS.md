@@ -1,4 +1,3 @@
-```
 # 🔐 Web Browser ki Security Policies — SOP, CORS aur Data Access ka Asli Scene
 
 ## 👨‍🏫 1. Same-Origin Policy (SOP) kya hoti hai?
