@@ -164,11 +164,3 @@ But **WAF koi magic nahi** — agar app ka logic weak hai, to WAF nahi bacha sak
 > “Secure website sirf tab banti hai jab developer smart coding kare, WAF properly configured ho aur analyst real-time monitoring kare. Tools sirf guard hain — asli responsibility developer ki hoti hai.”
 
 ---
-
-## 🏷 Suggested Title for GitHub Note:
-
-**"Web App Security: Developer vs WAF vs Analyst – Root Level Guide"**
-
-Ya phir:
-**"Kaun Banata Hai Website Secure? Developer, WAF ya Analyst?"**
-
