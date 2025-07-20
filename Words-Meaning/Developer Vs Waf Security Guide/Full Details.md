@@ -1,8 +1,8 @@
-# 🔐 Developer vs WAF vs Security Analyst — Full Security Breakdown (By Habib)
+### 🔐 Developer vs WAF vs Security Analyst — Full Security Breakdown (By Habib)
 
-## 🤔 Jab Developer Website Banata Hai — Kya Har Security Khud Lagani Padti Hai?
+#### 🤔 Jab Developer Website Banata Hai — Kya Har Security Khud Lagani Padti Hai?
 
-### ✅ Short Answer:
+###### ✅ Short Answer:
 
 **Haan, lekin agar developer smart tools aur frameworks use kare to kaafi security auto mil jati hai.**
 
