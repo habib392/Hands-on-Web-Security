@@ -95,7 +95,6 @@ Tumne dekha hi hoga: PortSwigger labs mein hum WAF bypass kar lete hain.
 
 ## 🛡️ So Final Summary
 
-```
 # 🔐 Developer vs Security
 
 ## 👨‍💻 Developer kya manually sab kuch secure karta hai?
@@ -120,4 +119,3 @@ Tumne dekha hi hoga: PortSwigger labs mein hum WAF bypass kar lete hain.
 ## 🔥 Conclusion:
 - Developer + Tool + WAF ≠ 100% secure
 - **Human testing zaroori hai** (jaise penetration tester)
-```
