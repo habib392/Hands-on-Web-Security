@@ -59,7 +59,7 @@ Tum ne XSS payload try kiya Facebook pe
 
 ---
 
-## 💡 So Tumhara Conclusion Sahi Hai:
+## 💡 So Conclusion:
 
 ### “Local ya choti websites zyada vulnerable hoti hain”
 
