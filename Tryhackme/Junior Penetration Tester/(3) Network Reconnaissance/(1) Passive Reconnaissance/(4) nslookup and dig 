@@ -28,4 +28,4 @@ dig @1.1.1.1 tryhackme.com MX
 *Iska matlab hai: "1.1.1.1 server sy tryhackme.com ky MX (mail) records nikal kar do."*
  * Output mein hamesha **ANSWER SECTION** ko dekha kro, asli information wahan hoti hai.
 > 🔒 **Privacy Tip:** Hamesha public resolvers (jaisy 1.1.1.1) use kiya karo taakay tumhara local ISP (Internet Service Provider) tumhari queries ko log na kr sakay.
-> 
+
