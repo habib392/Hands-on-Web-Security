@@ -1,43 +1,12 @@
-## ⚔️ The Core Concept: Attacker vs Defender
-Sun Tzu ki boht purani aur mashhoor qoutation hai: *"Agar tum dushman ko aur apny aap ko janty ho, toh tumhari jeet pakki hai."*
-Cyber security mein isky do pehlu hain:
-
- * **Attacker (Ethical Hacker/Bug Bounty Hunter):** Tum target ki kamzoriyan (vulnerabilities) dhoondnay ky liye unka data jama krty ho.
-
- * **Defender:** Tum yeh check krty ho ky dushman (hacker) ko bahaar sy tumhari company ka kya kya data mil rha hai, taakay tum us exposure ko kam sy kam (minimise) kr sako.
-
-Reconnaissance (Recon) hamesha kisi bhi cyber attack framework (jaisy **Unified Kill Chain** ya **Cyber Kill Chain**) ka sab sy **pehla phase** hota hai.
-
-## 🔍 1. Passive Reconnaissance (Khufia Tareeqa)
-Is mein target ko bilkul touch nahi kiya jata. Koi packet unky server par nahi jata, is liye pakray jany ka **zero risk** hota hai. Yeh bilkul aisy hai jaisy door khray ho kar doorbeen (binoculars) sy dushman ka ilaqa dekhna.
-
-### Common Passive Activities (Jo hum dhoondty hain):
-
- * **Public DNS Records:** Open resolvers sy domain ki details (IP addresses, Mail servers) nikalna.
-
- * **Certificate Transparency Logs:** crt.sh jaisi sites sy subdomains ka pata lagana.
-
- * **LinkedIn/Job Postings:** Company ki job vacancies dekh kar andaza lagana ky woh kaun si technology (Python, AWS, Docker) use kr rhy hain.
-
- * **GitHub Repositories:** Public code check krna ky kahin kisi developer ny galti sy passwords ya API keys toh expose nahi kr dein.
-
- * **Shodan/Censys:** IoT devices aur servers ki bahaar sy mili hui details check krna.
-
-## 🎯 2. Active Reconnaissance (Direct Interaction)
-Is mein tum direct target ky systems ya logon sy interact krty ho. Is mein pakray jany ka khatra boht zayada hota hai kyun ky firewalls (WAF) aur Intrusion Detection Systems (IDS/IPS) tumhari activity ko **log aur block** kr sakti hain. **Bagair permission active recon krna illegal hai!**
-
-### Common Active Activities:
-
- * **Live Hosts Check:** ping (ICMP requests) ya ARP requests bhejna.
- * **Port Scanning:** Nmap ya masscan chala kar open ports aur services ka pata lagana.
-
- * **Web Fuzzing:** Directory brute-forcing krna (jaisy gobuster ya dirsearch chalana).
-
- * **Social Engineering:** Company ky kisi bande ko call krna (vishing) ya phishing email bhejna.
-
- * **Physical Approach:** Kisi ke pehly pehly building mein ghus jana (tailgating).
-
-> ⚠️ **Zaroori Note:** Agar tum company ky kisi employee sy directly baat krty ho (chahe kisi party mein milo aur baton baton mein unki IT tech stack ka pooch lo), toh woh bhi **Active Recon** mein hi aaye ga, kyun ky tum ne direct contact kiya hai.
-> 
-## 🛡️ Defender Tip
-Aaj kal ki companies khud bhi apny upar automated OSINT tools aur Shodan alerts laga kar rakhti hain, taakay unhein pata rahy ky unka kitna data internet par publicly para hua hai aur woh usay hide kr sakein.
+### Passive vs Active Reconnaissance: Farq Kya Hai?
+ * **Passive Reconnaissance:** Iska matlab hai target (website ya server) ko bina touch kiye, bina us par koi traffic bhejay, bahaar bahaar sy publicly available information nikalna. Yeh bilkul aisy hi hai jaisy kisi ghar mein chori krny sy pehly chor sirf bahaar sy khra hokar dekhay ky ghar ka rang kaisa hai ya bahaar kya likha hai. Target ko pata hi nahi chalta ky koi us par nazar rakh rha hai.
+ * **Active Reconnaissance:** Is mein hum direct target sy interact krty hain (jaisy ping krna ya nmap scan chalana). Is mein pakray jany (firewall ya IDS mein detect hony) ka risk hota hai.
+### Hum Is Room Mein Kya Seekhein Gy?
+Is room ky main tools aur objectives yeh hain, jinhein hum agy barh kr aik aik kr ky detail mein parhein gy:
+ 1. **WHOIS Query:** Kisi domain ki registration details (kis ky naam par hai, kab register hua, email waghaira) nikalna.
+ 2. **DNS Queries (dig & nslookup):** Domain Name System sy records (IP address, mail servers, text records) nikalna.
+ 3. **Subdomain Discovery:** DNSDumpster aur Certificate Transparency (crt.sh) logs ky zariye aisy subdomains dhoondna jo aam tor par nazar nahi aaty.
+ 4. **Shodan.io:** Internet pr connected devices aur exposed services ka data dhoondna.
+### 💡 Ek Zaroori Baat (Prerequisites & Connection)
+ * **Internet Access:** Jaisa ky notice mein likha hai, agar tum in-browser AttackBox use kr rhy ho aur woh subscription ky bina hai, toh us mein direct internet nahi hoga. Is liye **OpenVPN** ky zariye apny local Kali Linux (ya jo bhi OS tum use kr rhy ho) ko TryHackMe sy connect kr lena taakay tum DNSDumpster aur Shodan jaisi websites ko browse kr sako.
+ * **No Deployment Needed:** Is room mein koi machine start krny ki zaroorat nahi hai, sab kaam public internet data aur commands sy hoga.
