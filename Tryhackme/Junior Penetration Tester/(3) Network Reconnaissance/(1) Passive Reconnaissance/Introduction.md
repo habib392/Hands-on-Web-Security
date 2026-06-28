@@ -10,3 +10,4 @@ Is room ky main tools aur objectives yeh hain, jinhein hum agy barh kr aik aik k
 ### 💡 Ek Zaroori Baat (Prerequisites & Connection)
  * **Internet Access:** Jaisa ky notice mein likha hai, agar tum in-browser AttackBox use kr rhy ho aur woh subscription ky bina hai, toh us mein direct internet nahi hoga. Is liye **OpenVPN** ky zariye apny local Kali Linux (ya jo bhi OS tum use kr rhy ho) ko TryHackMe sy connect kr lena taakay tum DNSDumpster aur Shodan jaisi websites ko browse kr sako.
  * **No Deployment Needed:** Is room mein koi machine start krny ki zaroorat nahi hai, sab kaam public internet data aur commands sy hoga..
+
