@@ -1,0 +1,31 @@
+Sab sy achi baat? Yeh abhi bhi **Passive Reconnaissance** hai! Kyun ky hum direct target ky server sy nahi pooch rhy, balkay public ya open DNS resolvers (jaisy Cloudflare ka 1.1.1.1 ya Google ka 8.8.8.8) sy data nikal rhy hain. Target ko kaano kaan khabar nahi hoti.
+## ⚔️ dig vs nslookup: Behtar Kaun Sa Hai?
+Dono tools DNS query ky liye hain, lekin **dig** (Domain Information Groper) modern aur preferred tool hai.
+ * **nslookup:** Purana tool hai. Output thoda raw hota hai. Windows par by default milta hai is liye documentation mein abhi bhi nazar aata hai.
+ * **dig:** Modern aur zyada reliable hai. Iska output boht saaf hota hai, aur yeh **TTL (Time to Live)** values bhi dikhata hai (yani yeh record kitni der tak cache mein rahy ga). Scripts likhnay ky liye yeh behtareen hai.
+## 📋 Common DNS Record Types (Jo Yaad Rakhni Hain)
+Humey recon krty huay different types ka data chahiye hota hai:
+| Record Type | Kya Kaam Krta Hai? |
+|---|---|
+| **A** | Domain name ko **IPv4** address mein convert krta hai. |
+| **AAAA** | Domain name ko **IPv6** address mein convert krta hai. |
+| **CNAME** | Ek alias (nickname) hota hai jo aik domain ko dosray domain par point krta hai. |
+| **MX** | **Mail Servers** ka pata batata hai (ky company ki emails kis server pr ja rahi hain). |
+| **TXT** | Text records hoty hain. Yeh aksar domain verification aur security policies (SPF, DMARC) ky liye use hoty hain. |
+## 💻 Commands aur Unka Matlab
+### 1. nslookup Example
+```bash
+nslookup -type=A tryhackme.com 1.1.1.1
+
+```
+*Iska matlab hai: "Cloudflare ky resolver (1.1.1.1) sy poocho ky tryhackme.com ka IPv4 address (A record) kya hai."*
+ * **MX Priority:** Jab MX records aaty hain, toh unky sath numbers hoty hain (jaisy 1, 5, 10). **Jitna chota number hoga, priority utni hi high hogi.** 1 aspmx.l.google.com sab sy pehly use hoga.
+### 2. dig Example (The Expert Way)
+```bash
+dig @1.1.1.1 tryhackme.com MX
+
+```
+*Iska matlab hai: "1.1.1.1 server sy tryhackme.com ky MX (mail) records nikal kar do."*
+ * Output mein hamesha **ANSWER SECTION** ko dekha kro, asli information wahan hoti hai.
+> 🔒 **Privacy Tip:** Hamesha public resolvers (jaisy 1.1.1.1) use kiya karo taakay tumhara local ISP (Internet Service Provider) tumhari queries ko log na kr sakay.
+
