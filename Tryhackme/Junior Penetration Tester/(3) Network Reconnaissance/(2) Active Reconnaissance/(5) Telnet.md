@@ -35,3 +35,17 @@ Aaj kal ki modern websites HTTPS (Port 443) use karti hain, jo encrypted hoti ha
 Encrypted servers par banner grab karne ke liye hum doosray tools use karte hain:
  * curl --head https://MACHINE_IP
  * openssl s_client -connect MACHINE_IP:443
+
+---
+
+Telnet ke zariye jo hum **Banner Grabbing** karte hain, uska asal aur main kaam server ka naam aur version nikalna hi hota hai. Aur yeh kaam waqai hum **Wappalyzer** extension aur **Nmap** scanning (nmap -sV) se bohot asani se aur behtar tareeqe se kar sakte hain.
+Toh phir hum Telnet kyun parh rahe hain? Iske peeche 3 zaroori wajah hain jo as a hacker tumhein pata honi chahiye:
+### 1. Underlying Concept (Buniyadi Asool) Samajhna
+Nmap aur Wappalyzer automated tools hain. Jab tum nmap -sV chalate ho, toh background mein Nmap bhi achanak us port se connect ho kar wahi banner uthata hai jo Telnet manually dikhata hai. Telnet parhne se tumhein yeh samajh aata hai ke **background mein automated tools asal mein kar kya rahe hain**.
+### 2. Manual Verification (Cross-Check)
+Cyber security mein jab automated tools (jaise Nmap) kabhi kabhi galat report dete hain ya confuse ho jaate hain, toh hackers manually check karte hain. Agar Nmap tumhein sahi version nahi bata pa raha, toh tum khud Telnet ya Netcat (nc) use kar ke server ko direct request bhejte ho aur uska raw response check karte ho.
+### 3. Light-weight alternative (Har system par chal jata hai)
+Nmap aik bara aur complex tool hai jo har computer par by default install nahi hota. Lekin Telnet ya Netcat har Linux machine (aur purane Windows) mein pehle se majood hote hain. Agar tum ne kisi server ko hack kiya (post-exploitation) aur tumhein us ke andar baith kar agle network ko scan karna hai jahan Nmap nahi hai, toh tum wahan Telnet use kar ke ports aur banners check kar sakte ho.
+
+### 📝 Summary
+Real life mein tum 90% times **Nmap** aur **Wappalyzer** hi use karoge kyunke woh fast hain. Lekin Telnet tumhein yeh sikhata hai ke raw TCP connection kaise kaam karta hai aur bina kisi heavy tool ke banner kaise grab kiya jata hai.
