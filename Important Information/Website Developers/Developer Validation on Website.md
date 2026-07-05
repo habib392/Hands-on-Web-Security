@@ -65,7 +65,9 @@ Lekin tool sab kuch nahi dekh sakta — **human logic flaws** ko tool nahi pakad
 4. Tools sirf **known vulnerabilities** dhoondte hain — naye tareeqay har waqt nikalte rehte hain.
 
 > Tools = X-ray machine
+
 > Human Pentester = Doctor
+
 > **X-ray dikhata hai fracture, lekin Doctor hi samajhta hai kaise thik karna hai.**
 
 ---
