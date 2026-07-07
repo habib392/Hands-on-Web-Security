@@ -5,7 +5,7 @@ Pichlay room mein tum ne seekha tha ky network par kaun kaun sy computer/hosts o
 Iss room mein majorly teen types ky port scans ko deeply discuss kiya gaya hai. Jab tum inko samajh lo gy, toh scan rate aur target ports ko control krna bhi aa jaye ga.
 ### 1. TCP Connect Scan (-sT)
  * **Yeh kya hai?** Yeh sab sy basic scan hai jo target ky sath poora **TCP 3-Way Handshake** complete karta hai.
- * **Process:** Tumhara system target ko SYN bhejta hai \rightarrow Target SYN-ACK deta hai \rightarrow Tumhara system ACK bhej kar connection establish karta hai aur phir band kar deta hai.
+ * **Process:** Tumhara system target ko SYN bhejta hai > Target SYN-ACK deta hai > Tumhara system ACK bhej kar connection establish karta hai aur phir band kar deta hai.
  * **Fayda/Nuqsan:** Yeh scan bohot reliable hai lekin yeh target ky system logs mein record ho jata hai (yani yeh stealthy/chupa hua nahi hota).
 ### 2. TCP SYN Scan (-sS)
  * **Yeh kya hai?** Isay **Half-Open Scan** ya **Stealth Scan** bhi kehte hain. Yeh poora connection complete nahi karta.
