@@ -55,3 +55,22 @@
 
 ```
 *Note: Primary target combo to start practical hands-on web security labs: **PHP + MySQL**.*
+
+---
+
+## 1. Kya JavaScript poori seekhne ki zaroorat nahi, sirf XSS payloads kafi hain?
+HTML aapko aati hai toh yeh boht zabardast baat hai! Jahan tak JavaScript ki baat hai, toh aapko ek **Full-Stack Web Developer** ki tarah poori JS (jaise complex frameworks ya apps banana) seekhne ki bilkul zaroorat nahi hai.
+Lekin sirf payloads rat lena bhi kaafi nahi hota. XSS ko ache se samajhne aur advanced filters ko bypass karne ke liye aapko kuch basic concepts clear hone chahiye:
+ * **DOM (Document Object Model):** Yeh samajhna ke page ka structure JavaScript ke zariye kaise change hota hai.
+ * **Sinks aur Sources:** Yeh pata ho ke data kahan se aa raha hai (location.search, document.URL) aur kahan execute ho raha hai (eval(), innerHTML).
+ * **Basic Functions:** Jaise cookies access karna (document.cookie), requests bhejna, ya event handlers (onload, onerror).
+Jab aapko ye basic cheezein samajh aa jayengi, toh aap sirf ratta lagane ke bajaye khud ke naye payloads bana sakenge!
+## 2. Server ki koi language hoti hai? Apache aur Nginx configurations kya hain?
+Nahi, Apache aur Nginx ki koi programming language nahi hoti. Yeh khud software hain jo C language mein likhe gaye hain aur yeh **Web Servers** kehlate hain—inke zariye hi website internet par live hoti hai aur user ki requests ko handle karti hai.
+ * **Configurations kya hain?** Inki apni settings ki files hoti hain (jaise nginx.conf ya .htaccess), jismein server ko bataya jata hai ke website ki files kahan pari hain, URL routing kaise karni hai, aur security rules kya honge.
+ * **Kya inhein yaad karna parta hai?** **Bilkul bhi nahi!** Duniya ka koi pentester ya developer inki configurations ko yaad nahi karta.
+**Pentester ke taur par aapko kya pata hona chahiye?**
+Aapko configurations **yaad** nahi karni, balk yeh pata hona chahiye ke **Server Misconfiguration** kya hoti hai. Misconfiguration ka matlab hai ke developer ya admin ne server ki setting mein koi ghalti chhor di ho; misconfigurations mein yeh cheezein aati hain:
+ * **Directory Listing Enabled:** Agar yeh on ho, toh folder ki saari private files open browser mein dikh jati hain.
+ * **Insecure Headers:** Security headers (jaise CORS ya CSP) theek se set na hona.
+Aapka kaam configurations likhna nahi, balk yeh check karna hota hai ke kahan ghalat setting ki wajah se server leak ho raha hai!
